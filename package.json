@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KanzaTahreem/Try-Bootstrap/issues"
   },
-  "homepage": "https://github.com/KanzaTahreem/Try-Bootstrap#readme"
+  "homepage": "https://github.com/KanzaTahreem/Try-Bootstrap#readme",
+  "devDependencies": {
+    "hint": "^7.1.1"
+  }
 }
