@@ -114,3 +114,57 @@ main {
 .badge {
   background-color: #ebebff;
 }
+
+#About {
+  background-color: white;
+  border-top-right-radius: 100px;
+}
+
+#About > div {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 10em 7em;
+}
+
+.about-content-left {
+  width: 30vw;
+  padding-right: 2em;
+}
+
+.about-content-right {
+  width: 45vw;
+}
+
+.about-title {
+  width: 10vw;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.about-subtitle {
+  font-size: 1em;
+  width: 28vw;
+  line-height: 1.5em;
+}
+
+.item {
+  font-size: 1.35em;
+}
+
+.subitem-list {
+  list-style-type: none;
+}
+
+.subitem-list li {
+  font-size: 1rem;
+  background: #f7f7f9;
+  border-radius: 0.5em;
+  padding: 0.8em 1.25em;
+  margin-right: 1em;
+  width: 8em;
+}
+
+.subitem-list img {
+  width: 3em;
+}
