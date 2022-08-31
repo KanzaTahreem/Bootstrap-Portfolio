@@ -74,3 +74,29 @@ main {
   padding-right: 1.25em;
   font-weight: 500;
 }
+
+.project-section {
+  padding: 8.875em;
+}
+
+.project-card {
+  border-radius: 1.5em;
+}
+
+.mainlist {
+  color: #344563;
+  font-size: 1.125em;
+}
+
+.sublist {
+  color: #6b778c;
+  font-size: 1.125em;
+}
+
+.sublist::before {
+  content: "•";
+  margin: 0 8px;
+  width: 8px;
+  height: 8px;
+  color: #6b778c;
+}
