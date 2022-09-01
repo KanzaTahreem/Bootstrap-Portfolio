@@ -28,6 +28,10 @@
   font-size: 0.9375em;
 }
 
+.bar-menu {
+  display: none;
+}
+
 main {
   position: absolute;
   width: 100%;
@@ -80,12 +84,25 @@ main {
 }
 
 .project-card {
-  border-radius: 1.5em;
+  border-radius: 0.375em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  background-color: #fff;
+  border: 1px solid transparent;
 }
 
-.project-card > * {
-  flex: 1 1 0;
-  width: 0;
+.project-card-even {
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+  background-color: #fff;
+  border-radius: 0.375em;
+  border: 1px solid transparent;
+  padding: 1rem 0.5rem;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .card-title {
@@ -264,5 +281,47 @@ form {
   .subtitle {
     font-size: 1.25em;
     color: #344563;
+  }
+
+  .project-section {
+    padding-left: 2em;
+    padding-right: 1.5em;
+  }
+
+  .project-card {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .project-card-even {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .card-title {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .mainlist {
+    color: #344563;
+    font-size: 0.925em;
+  }
+
+  .sublist {
+    color: #6b778c;
+    font-size: 0.925em;
+  }
+
+  .sublist::before {
+    content: "•";
+    margin: 0 8px;
+    width: 8px;
+    height: 8px;
+    color: #6b778c;
+  }
+
+  .card-text {
+    font-size: 0.925em;
   }
 }
