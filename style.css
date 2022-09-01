@@ -171,7 +171,6 @@ main {
 
 .subitem-list {
   display: flex;
-  flex-direction: column;
   list-style-type: none;
 }
 
@@ -182,6 +181,8 @@ main {
   padding: 0.8em 1.25em;
   margin-right: 1em;
   width: 8em;
+  flex-direction: column;
+
 }
 
 .subitem-list img {
@@ -226,6 +227,7 @@ form {
   border: 1px solid #cfd8dc;
   font-weight: 400;
   line-height: 1.25em;
+  border-radius: 0.5em;
 }
 
 #comment {
@@ -233,6 +235,7 @@ form {
   font-size: 1.0625em;
   font-weight: 400;
   line-height: 1.25em;
+  border-radius: 0.5em;
 }
 
 #button {
@@ -357,6 +360,7 @@ form {
   .subitem-list li {
     width: 100%;
     margin-bottom: 1em;
+    flex-direction: row;
   }
 
   #list-item1,
@@ -365,7 +369,37 @@ form {
     align-items: center;
   }
 
+  #Contact {
+    background-image: url('./images/contact-form-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+
+  #Contact > div {
+    width: 100%;
+    padding: 10em 3em;
+  }
+
   .subitem-list img {
     margin-right: 1.5em;
   }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #text,
+  #email,
+  #comment {
+    border-radius: 0.5em;
+  }
+
+    #button {
+      align-self: flex-start;
+    }
+
 }
+
