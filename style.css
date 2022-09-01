@@ -45,13 +45,13 @@ main {
   padding: 15em 20em;
 }
 
-#title {
+.title {
   font-weight: 800;
   font-size: 3em;
   line-height: 1.25em;
 }
 
-.supporting-text {
+.subtitle {
   font-size: 1.35em;
   line-height: 1.75em;
 }
@@ -223,4 +223,46 @@ form {
 #button:hover {
   background-color: #0d6efd;
   color: white;
+}
+
+@media (max-width: 575.98px) {
+  .header {
+    padding: 0 2em;
+    position: inherit;
+  }
+
+  .bar-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.25em;
+    color: #0d6efd;
+  }
+
+  #navbar-menu {
+    display: none;
+  }
+
+  main {
+    margin-top: 0;
+    position: inherit;
+  }
+
+  .headline {
+    background-image: url('./images/header-shapes-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: contain;
+    padding: 15em 3em;
+  }
+
+  .title {
+    font-size: 2.5em;
+    width: 50vw;
+  }
+
+  .subtitle {
+    font-size: 1.25em;
+    color: #344563;
+  }
 }
