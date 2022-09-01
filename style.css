@@ -105,6 +105,18 @@ main {
   overflow: hidden;
 }
 
+#card1,
+#card2,
+#card3,
+#card4 {
+  flex-direction: row;
+}
+
+#card2,
+#card4 {
+  flex-direction: row-reverse;
+}
+
 .card-title {
   font-weight: 700;
   font-size: 2.5rem;
@@ -182,7 +194,6 @@ main {
   margin-right: 1em;
   width: 8em;
   flex-direction: column;
-
 }
 
 .subitem-list img {
@@ -247,7 +258,7 @@ form {
   color: white;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 1199.98px) {
   .header {
     padding: 0 2em;
     position: inherit;
@@ -330,6 +341,13 @@ form {
     font-size: 0.925em;
   }
 
+  #card1,
+  #card2,
+  #card3,
+  #card4 {
+    flex-direction: column;
+  }
+
   #about-content {
     flex-direction: column;
   }
@@ -397,9 +415,17 @@ form {
     border-radius: 0.5em;
   }
 
-    #button {
-      align-self: flex-start;
-    }
-
+  #button {
+    align-self: flex-start;
+  }
 }
 
+@media (min-width: 991.98px) {
+  .headline {
+    background-image: url('./images/header-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: contain;
+  }
+}
