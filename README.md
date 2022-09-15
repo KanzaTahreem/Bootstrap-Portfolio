@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Website
+# Bootstrap Portfolio
 
 > The portfolio is build by using ['mobile first' approach](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/) to learn working with the CSS frameworks. Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://kanzatahreem.github.io/Bootstrap-Portfolio/)
 
 ## Getting Started
 
