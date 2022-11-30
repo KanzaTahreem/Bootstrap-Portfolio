@@ -2,7 +2,7 @@
 
 # Bootstrap Portfolio
 
-> The portfolio is build by using ['mobile first' approach](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/) to learn working with the CSS frameworks. Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+> The portfolio is build by using ['mobile first' approach](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/) to learn working with the CSS framework. Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
 
 ## Built With
 
